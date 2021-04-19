@@ -1,55 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Learn web development on ZENVA.com</title>
-    <meta charset="UTF-8" >
-    <meta name="description" content="This is what Google will show!" >
-    <link rel="icon" href="favicon.ico" >
-    <link rel="stylesheet" href="style.css" >
-  </head>
-  <body>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bix Dine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
     <div class="nav">
-      <ul>
-        <li>Home</li>
-        <li>Services</li>
-        <li>Support</li>
-        <li>Contact</li>
-      </ul>
+        <ul class="nav-ul">
+            <li>Home</li>
+            <li>Services</li>
+            <li>Support</li>
+            <li>Resources</li>
+            <li>About</li>
+            <li>Contact</li>     
+        </ul>
     </div>
-    <div class="wrapper">
-      <div class="image-area">
-        <div class="image-text centered-container">Learn coding on Zenva.com</div>
+    <div class="main-container">
+        <div class="img-container">
+          <div class="img-text">
+            <h1>Eat, Drink and Merry</h1> 
+          </div>
+        </div>
+      
+        <div class="intro-text centered-container"> 
+            Our Services 
+        </div>
+
+        <div class="services centered-container">
+          <div class="single-services">
+            <img src="images/1.jpg" alt="" width="300px" height="300px">
+            <h3>Fish Goujonette Basket</h3>
+            <p>
+              Crumbed and deep fried fish served with tartar sauce and fries 
+            </p>
+        </div>
+
+        <div class="single-services">
+            <img src="images/2.jpg" alt=""  width="300px" height="300px">
+            <h3>Chicken Basket</h3>
+            <p>
+              Crumbed deep fried drips of chicken topped with a sweet chili and mayonnaise dip served. 
+             </p>
+        </div>
+
+        <div class="single-services">
+          <img src="images/3.jpg" alt="" >
+          <h3>Hawaiian Pizza</h3>
+          <p>
+            Pizza with ham, pineapple, cheese and herbs toppings
+          </p>
+        </div>
+
+        <div class="single-services">
+          <img src="images/4.jpg" alt="" >
+          <h3>Chicken Lollipop</h3>
+          <p>
+            Crumbed and deep fried chicken wings served with BBQ sauce and chips
+          </p>
+        </div>
       </div>
-      <div class="intro-text centered-container">
-        At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
-      </div>
-      <div class="services centered-container">
-        <div class="single-service">
-          <img src="images/1.jpg" />
-          <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus
-          </p>
+
+      <div class="contact_form">
+        <div class="contact_text">
+            <div>
+                <label for="name">First Name</label>
+                <input type="text" fname = "subject" value = "" placeholder="First Name">
+
+            </div>
+            <div>
+                <label for="name">Last Name</label>
+                <input type="text" lname = "subject" value = "" placeholder="Last Name">
+
+            </div>
+               
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name ="email" value = "" placeholder="Email" >   
+            </div>
+            
+            <div>
+                <label for="subject">Telephone Number</label>
+                <input type="text" name ="subject" value = "" placeholder="Telephone Number">
+            </div>           
+
         </div>
-        <div class="single-service">
-          <img src="images/2.jpg" />
-          <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus
-          </p>
+        <div>
+          <label for="message">Message</label>
+          <textarea name="message" id="" cols="100" rows="10"></textarea>
         </div>
-        <div class="single-service">
-          <img src="images/3.jpg" />
-          <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus
-          </p>
-        </div>
-        <div class="single-service">
-          <img src="images/4.jpg" />
-          <p>
-            At vero eos et accusamus et iusto odio dignissimos ducimus
-          </p>
-        </div>
-      </div>
+        <button id="send">SEND</button>
+        
+      </div>   
+
     </div>
 
-  </body>
+
+    <script src="index.js"></script>  
+</body>
 </html>
