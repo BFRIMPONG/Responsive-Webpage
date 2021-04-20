@@ -74,7 +74,7 @@ body{
 .single-services{
   text-align: center;
   margin-bottom: 32px;
-  box-shadow: 0 0.4rem 0.2rem 0 rgb(138, 138, 228);
+  
 }
 
 .single-services p{
@@ -120,10 +120,6 @@ textarea{
 
 }
 
-#send:hover{
-  box-shadow: 0 3px 10px rgba(251, 44, 116, 0.5);
-  background-color: none;
-}
 
 h1{
   text-align: center;
@@ -161,9 +157,7 @@ input{
   cursor: pointer;  
 }
 
-#btn:hover{
 
-}
 
 
 
